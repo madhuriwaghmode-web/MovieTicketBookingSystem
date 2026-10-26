@@ -1,3 +1,6 @@
+git add README.md
+git commit -m "Resolve README merge conflict"
+git push origin ashish-project<<<<<<< HEAD
 # Movie Ticket Booking System
 
 A beginner-friendly Java mini project using Spring Boot, JDBC and an H2 in-memory database. Payment is simulated; no real payment information is collected.
@@ -41,3 +44,6 @@ Set `Content-Type: application/json`.
 6. Cancel a booking and check that its seats become available again.
 
 The `UNIQUE(show_id, seat_id)` database constraint prevents the same seat being booked twice for a show. Payment is simulated and this is a backend API, not a full website.
+=======
+# MovieTicketBookingSystem
+>>>>>>> origin/main
