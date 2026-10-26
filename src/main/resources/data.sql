@@ -1,0 +1,12 @@
+INSERT INTO movie(id,title,language,duration_minutes) VALUES (1,'3 Idiots','Hindi',170);
+INSERT INTO movie(id,title,language,duration_minutes) VALUES (2,'Interstellar','English',169);
+INSERT INTO theatre(id,name,city) VALUES (1,'City Cinema','Pune');
+INSERT INTO screen(id,theatre_id,screen_name) VALUES (1,1,'Screen 1');
+INSERT INTO seat(id,screen_id,seat_number) VALUES (1,1,'A1');
+INSERT INTO seat(id,screen_id,seat_number) VALUES (2,1,'A2');
+INSERT INTO seat(id,screen_id,seat_number) VALUES (3,1,'A3');
+INSERT INTO seat(id,screen_id,seat_number) VALUES (4,1,'B1');
+INSERT INTO seat(id,screen_id,seat_number) VALUES (5,1,'B2');
+INSERT INTO seat(id,screen_id,seat_number) VALUES (6,1,'B3');
+INSERT INTO show_schedule(id,movie_id,screen_id,show_date,show_time,ticket_price) VALUES (1,1,1,CURRENT_DATE,'18:00:00',180.00);
+INSERT INTO show_schedule(id,movie_id,screen_id,show_date,show_time,ticket_price) VALUES (2,2,1,CURRENT_DATE,'21:00:00',220.00);
